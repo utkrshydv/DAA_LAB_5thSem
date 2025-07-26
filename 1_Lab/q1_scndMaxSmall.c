@@ -65,5 +65,7 @@ int main(){
   findSecondMax(array, n);
   findSecondMin(array, n);
 
+  free(array);
+
   return 0;
 }
